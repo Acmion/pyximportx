@@ -249,7 +249,6 @@ class __handler():
                     # this checks only first level dependencies, but is faster
                     for dep in pyximportx_dependencies:
                         if self.get_module_modified_time(dep.module_name) > dep.last_modified:
-                            print(1)
                             return True
 
                     # this checks for nested dependencies
