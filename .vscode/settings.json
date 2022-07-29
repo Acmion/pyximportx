@@ -1,0 +1,8 @@
+{
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyx": true,
+        "**/*.py.dep": true,
+        "**/*.egg-info": true,
+    }
+}
