@@ -36,7 +36,7 @@ Usage
     ```
 5. Install pyximportx as package (so that it can be imported):
     ```
-    pip install -e pyximportx
+    pip install -e .
     ```
 6. Write Cython code in pure Python mode and in `.py` files. The first line in all of these files should be:
     ```python
